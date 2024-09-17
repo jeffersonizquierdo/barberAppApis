@@ -32,7 +32,7 @@ import com.barberapp.services.barbershop.ServiceBarbershop;
 
 
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/", "https://barberappfronted.pages.dev/"})
 @RestController
 @RequestMapping("/barbershop")
 public class ControllerBarbershop {

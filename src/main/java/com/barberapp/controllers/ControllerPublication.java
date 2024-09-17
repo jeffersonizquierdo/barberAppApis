@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.barberapp.entities.Publication;
 import com.barberapp.services.Publication.ServicePublication;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/", "https://barberappfronted.pages.dev/"})
 @RestController
 @RequestMapping("publication")
 public class ControllerPublication {

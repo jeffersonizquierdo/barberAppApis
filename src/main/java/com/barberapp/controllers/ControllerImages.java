@@ -26,7 +26,7 @@ import com.barberapp.services.barbershop.ServiceBarbershop;
 import com.barberapp.services.images.ServiceImages;
 
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/", "https://barberappfronted.pages.dev/"})
 @RestController
 @RequestMapping("images")
 public class ControllerImages {

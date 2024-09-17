@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.barberapp.entities.Customer;
 import com.barberapp.services.customer.ServiceCustomer;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/", "https://barberappfronted.pages.dev/"})
 @RestController
 @RequestMapping("customer")
 public class ControllerCustomer {

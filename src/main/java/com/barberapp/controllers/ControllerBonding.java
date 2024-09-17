@@ -26,7 +26,7 @@ import com.barberapp.entities.Barbershop;
 import com.barberapp.entities.Bonding;
 import com.barberapp.services.bonding.ServiceBonding;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/", "https://barberappfronted.pages.dev/"})
 @RestController
 @RequestMapping("/bonding")
 public class ControllerBonding {

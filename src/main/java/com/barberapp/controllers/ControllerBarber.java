@@ -27,7 +27,7 @@ import com.barberapp.entities.Barber;
 import com.barberapp.services.barber.ServiceBarber;
 
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/", "https://barberappfronted.pages.dev/"})
 @RestController
 @RequestMapping("barber")
 public class ControllerBarber {

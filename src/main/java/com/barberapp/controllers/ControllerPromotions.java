@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.barberapp.entities.Promotions;
 import com.barberapp.services.promotions.ServicePromotions;
 
-@CrossOrigin(origins = "http://localhost:4200/")
+@CrossOrigin(origins = {"http://localhost:4200/", "https://barberappfronted.pages.dev/"})
 @RestController
 @RequestMapping("promotions")
 public class ControllerPromotions {
